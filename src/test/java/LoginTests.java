@@ -27,8 +27,9 @@ public class LoginTests {
         website = new ApolloWalletSite(webDriver);
         url = "http://localhost:7876";
 
-        System.out.println("Step 1: Open " + url);
+        System.out.println("Step 1: Open " + url + " and click on notification if it is present");
         webDriver.get(url);
+        website.mainPage().clickOnNotification();
     }
 
     @Test
@@ -57,16 +58,13 @@ public class LoginTests {
         System.out.println("Step 4: Click on Submit Button");
         website.loginPage().clickSubmitBtn();
 
-        System.out.println("Step 5: Press on Notification if it is present");
-        website.mainPage().clickOnNotification();
-
-        System.out.println("Step 6: Press on Account Icon");
+        System.out.println("Step 5: Press on Account Icon");
         website.mainPage().clickAccountIconBtn();
 
-        System.out.println("Step 7: Click on Log out button");
+        System.out.println("Step 6: Click on Log out button");
         website.mainPage().clickLogoutBtn();
 
-        System.out.println("Step 8: Wait for Login Page is present");
+        System.out.println("Step 7: Wait for Login Page is present");
         website.loginPage().waitForLoginPage();
     }
 
@@ -79,6 +77,17 @@ public class LoginTests {
         Thread.sleep(3000);
         System.out.println("Step 4: Verify User Account Rs");
         website.mainPage().verifyUserAccountRs("APL-AHWS-NGBG-V4LK-8Q65T");
+    }
+
+    @Test
+    public void testLogInByAccountIDNegative() throws InterruptedException {
+        System.out.println("Step 2: Log In by Invalid Account ID");
+        website.loginPage().enterAccountID("negativetest");
+        System.out.println("Step 3: Click on Submit Button");
+        website.loginPage().pressEnterBtn();
+        System.out.println("Step 4: Check that Error Notification is present");
+        website.loginPage().checkErrorNotification();
+
     }
 
     @After
