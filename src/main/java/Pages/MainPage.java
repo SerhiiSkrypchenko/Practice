@@ -22,6 +22,8 @@ public class MainPage {
     WebElement notification;
     @FindBy(className = "user-account-rs")
     WebElement userAccountRsBtn;
+    @FindBy(css = "a[class='user-account-rs blue-text d-block']")
+    WebElement userAccountRsInfo;
 
 
 
@@ -53,6 +55,10 @@ public class MainPage {
 
     public void verifyUserAccountRs(String userAccountRs) {
         Assert.assertTrue(userAccountRsBtn.getText().equals(userAccountRs));
+    }
+
+    public void verifyUserAccountRsInfo(String userAccountRs) {
+        Assert.assertTrue(userAccountRsInfo.getText().equals(userAccountRs));
     }
 
 }

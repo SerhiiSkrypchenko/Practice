@@ -6,6 +6,7 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.internal.JUnitSystem;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -25,11 +26,12 @@ public class LoginTests {
         webDriver.manage().window().maximize();
         wait = new WebDriverWait(webDriver, 30, 500);
         website = new ApolloWalletSite(webDriver);
-        url = "http://localhost:7876";
+        url = "https://apollowallet.org/";
 
         System.out.println("Step 1: Open " + url + " and click on notification if it is present");
         webDriver.get(url);
         website.mainPage().clickOnNotification();
+        website.loginPage().verifyLoginPage();
     }
 
     @Test
@@ -44,7 +46,18 @@ public class LoginTests {
         website.loginPage().clickSubmitBtn();
 
         System.out.println("Step 5: Check URL = dashboard");
+        Thread.sleep(2000);
         Assert.assertTrue(webDriver.getCurrentUrl().contains("dashboard"));
+    }
+
+    @Test
+    public void testLogInByEmptySecretPhraseNegative() throws InterruptedException {
+        System.out.println("Step 2: Switch to Login by Secret Phrase");
+        website.loginPage().switchToLoginBySecretPhrase();
+        System.out.println("Step 3: Click on Submit Button");
+        website.loginPage().clickSubmitBtn();
+        System.out.println("Step 4: Check that Error Notification Secret Phrase is required is present");
+        website.loginPage().checkErrorNotification("Secret Phrase is required.");
     }
 
     @Test
@@ -57,6 +70,7 @@ public class LoginTests {
 
         System.out.println("Step 4: Click on Submit Button");
         website.loginPage().clickSubmitBtn();
+        Thread.sleep(3000);
 
         System.out.println("Step 5: Press on Account Icon");
         website.mainPage().clickAccountIconBtn();
@@ -65,7 +79,7 @@ public class LoginTests {
         website.mainPage().clickLogoutBtn();
 
         System.out.println("Step 7: Wait for Login Page is present");
-        website.loginPage().waitForLoginPage();
+        website.loginPage().verifyLoginPage();
     }
 
     @Test
@@ -76,18 +90,31 @@ public class LoginTests {
         website.loginPage().clickSubmitBtn();
         Thread.sleep(3000);
         System.out.println("Step 4: Verify User Account Rs");
-        website.mainPage().verifyUserAccountRs("APL-AHWS-NGBG-V4LK-8Q65T");
+        website.mainPage().clickAccountIconBtn();
+        website.mainPage().verifyUserAccountRsInfo("APL-AHWS-NGBG-V4LK-8Q65T");
+        System.out.println("Step 5: Log out");
+        website.mainPage().clickLogoutBtn();
+        System.out.println("Step 6: Check Log In Page");
+        website.loginPage().verifyLoginPage();
     }
 
     @Test
     public void testLogInByAccountIDNegative() throws InterruptedException {
         System.out.println("Step 2: Log In by Invalid Account ID");
         website.loginPage().enterAccountID("negativetest");
-        System.out.println("Step 3: Click on Submit Button");
+        System.out.println("Step 3: Press ENTER button");
         website.loginPage().pressEnterBtn();
         System.out.println("Step 4: Check that Error Notification is present");
-        website.loginPage().checkErrorNotification();
+        website.loginPage().checkErrorNotification("Incorrect \"account\"");
 
+    }
+
+    @Test
+    public void testLogInByEmptyAccountIDNegative() throws InterruptedException {
+        System.out.println("Step 2: Click on Submit Button");
+        website.loginPage().clickSubmitBtn();
+        System.out.println("Step 3: Check that Error Notification is present");
+        website.loginPage().checkErrorNotification("Account ID is required.");
     }
 
     @After
