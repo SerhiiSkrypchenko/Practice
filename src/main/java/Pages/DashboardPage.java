@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class MainPage {
+public class DashboardPage {
     private WebDriver webDriver;
     private WebDriverWait wait;
 
@@ -22,14 +22,15 @@ public class MainPage {
     WebElement notification;
     @FindBy(className = "user-account-rs")
     WebElement userAccountRsBtn;
-    @FindBy(css = "a[class='user-account-rs blue-text d-block']")
+    @FindBy(css = "a[class='user-account-rs blue-text']")
     WebElement userAccountRsInfo;
 
 
 
 
 
-    public MainPage(WebDriver driver) {
+
+    public DashboardPage(WebDriver driver) {
         webDriver = driver;
         wait = new WebDriverWait(webDriver, 30);
         PageFactory.initElements(webDriver, this);
@@ -58,7 +59,10 @@ public class MainPage {
     }
 
     public void verifyUserAccountRsInfo(String userAccountRs) {
-        Assert.assertTrue(userAccountRsInfo.getText().equals(userAccountRs));
+        //wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[class='user-account-rs blue-text']")));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".account-sub-titles:nth-child(2)")));
+        //Assert.assertTrue(userAccountRsInfo.getText().equals(userAccountRs));
+        Assert.assertTrue(webDriver.findElement(By.cssSelector(".account-sub-titles:nth-child(2)")).getText().equals(userAccountRs));
     }
 
 }

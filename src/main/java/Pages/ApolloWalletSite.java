@@ -9,7 +9,7 @@ public class ApolloWalletSite {
         webDriver = driver;
     }
 
-    public MainPage mainPage() {return new MainPage(webDriver); }
+    public DashboardPage mainPage() {return new DashboardPage(webDriver); }
 
     public LoginPage loginPage() {return new LoginPage(webDriver); }
 
