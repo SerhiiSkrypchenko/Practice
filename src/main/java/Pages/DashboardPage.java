@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -24,11 +25,6 @@ public class DashboardPage {
     WebElement userAccountRsBtn;
     @FindBy(css = "a[class='user-account-rs blue-text']")
     WebElement userAccountRsInfo;
-
-
-
-
-
 
     public DashboardPage(WebDriver driver) {
         webDriver = driver;
@@ -60,8 +56,10 @@ public class DashboardPage {
 
     public void verifyUserAccountRsInfo(String userAccountRs) {
         //wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[class='user-account-rs blue-text']")));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.className("user-account-rs")));
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".account-sub-titles:nth-child(2)")));
         //Assert.assertTrue(userAccountRsInfo.getText().equals(userAccountRs));
+        Assert.assertTrue(userAccountRsBtn.getText().equals(userAccountRs));
         Assert.assertTrue(webDriver.findElement(By.cssSelector(".account-sub-titles:nth-child(2)")).getText().equals(userAccountRs));
     }
 
