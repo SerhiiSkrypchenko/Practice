@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebd44887-caa1-4e4c-a1b9-f31576ce02e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/LogInPageTests/CreateStandardWalletTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LogInPageTests/CreateVaultWalletTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LogInPageTests/LogInTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LogInPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/ApolloWalletSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/ApolloWalletSite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LogInPageTests/CreateStandardWalletTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LogInPageTests/CreateVaultWalletTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LogInPageTests/LogInTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/ApolloWalletSite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/ApolloWalletSite.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Pages/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LogInPageTests/CreateStandardWalletTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LogInPageTests/CreateVaultWalletTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LogInPageTests/LogInTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LogInPageTests/LoginPageTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,62 +29,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="986">
+              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="63" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LogInPageTests/CreateStandardWalletTests.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="118" column="40" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+            <state relative-caret-position="204">
+              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#setUp#0;class#Cre#0" />
-                <element signature="method#testCreateStandardWallet#0;class#Cre#0" />
-                <element signature="method#testCreateStandardWalletInvalidSecretPhrase#0;class#Cre#0" />
-                <element signature="method#testCreateStandardWalletNegative#0;class#Cre#0" />
-                <element signature="method#tearDown#0;class#Cre#0" />
+                <element signature="e#1419#1420#0" expanded="true" />
+                <element signature="e#1504#1505#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LogInPageTests/CreateVaultWalletTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LogInPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="142" selection-start-line="142" selection-end-line="142" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#setUp#0;class#LoginPageTests#0" />
-                <element signature="method#testCreateVaultWalletRandomlyGeneratedSecretPhrase#0;class#LoginPageTests#0" />
-                <element signature="method#testCreateVaultWalletCustomSecretPhrase#0;class#LoginPageTests#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LogInPageTests/LogInTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="127" selection-start-line="127" selection-end-line="127" />
+            <state relative-caret-position="366">
+              <caret line="144" column="38" lean-forward="true" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setUp#0;class#LoginPageTests#0" />
                 <element signature="method#testLogInBySecretPhrase#0;class#LoginPageTests#0" />
-                <element signature="method#testLogInByEmptySecretPhraseNegative#0;class#LoginPageTests#0" />
+                <element signature="method#testLogInByEmptySecretPhraseNegative#0;class#LogInTests#0" />
                 <element signature="method#testLogInByAccountID#0;class#LoginPageTests#0" />
                 <element signature="method#testLogInByAccountIDNegative#0;class#LoginPageTests#0" />
                 <element signature="method#testLogInByEmptyAccountIDNegative#0;class#LoginPageTests#0" />
                 <element signature="method#testLogOut#0;class#LoginPageTests#0" />
                 <element signature="method#testExitModalWindowBtn#0;class#LogInTests#0" />
+                <element signature="method#testCreateVaultWalletRandomlyGeneratedSecretPhrase#0;class#LogInTests#0" />
+                <element signature="method#testCreateVaultWalletVerifyStoreDataNegative#0;class#LogInTests#0" />
+                <element signature="method#testCreateVaultWalletCustomSecretPhrase#0;class#LogInTests#0" />
+                <element signature="method#testCreateVaultWalletInvalidSecretPhraseNegative#0;class#LogInTests#0" />
+                <element signature="method#testCreateStandardWallet#0;class#LogInTests#0" />
+                <element signature="method#testCreateStandardWalletInvalidSecretPhrase#0;class#LogInTests#0" />
+                <element signature="method#testCreateStandardWalletNegative#0;class#LogInTests#0" />
+                <element signature="method#testImportFile#0;class#LogInPageTests#0" />
+                <element signature="method#testImportFile#1;class#LogInPageTests#0" />
+                <element signature="method#testImportInvalidSecretPhrase#1;class#LogInPageTests#0" />
+                <element signature="method#testImportInvalidSecretPhrase#1;class#LogInPageTests#0" />
+                <element signature="method#testImportInvalidSecretFile#1;class#LogInPageTests#0" />
+                <element signature="method#testImportSecretFileWrongFormat#1;class#LogInPageTests#0" />
                 <element signature="method#tearDown#0;class#LoginPageTests#0" />
               </folding>
             </state>
@@ -83,21 +86,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="91" selection-start-line="91" selection-end-line="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="169" column="67" selection-start-line="169" selection-start-column="16" selection-end-line="169" selection-end-column="67" />
+            <state relative-caret-position="1165">
+              <caret line="111" column="94" selection-start-line="111" selection-start-column="81" selection-end-line="111" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1144#1145#0" expanded="true" />
+                <element signature="e#2322#2323#0" expanded="true" />
+                <element signature="e#2373#2374#0" expanded="true" />
+                <element signature="e#2406#2407#0" expanded="true" />
+                <element signature="e#2462#2463#0" expanded="true" />
+                <element signature="e#1536#1537#0" expanded="true" />
+                <element signature="e#1566#1567#0" expanded="true" />
+                <element signature="e#4632#4839#0" expanded="true" />
+                <element signature="e#4838#4839#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,17 +110,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="187">
+              <caret line="98" column="61" selection-start-line="98" selection-start-column="53" selection-end-line="98" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/DashboardPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="61" column="76" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="76" />
+            <state relative-caret-position="80">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1099#1100#0" expanded="true" />
@@ -129,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/ApolloWalletSite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+            <state relative-caret-position="221">
+              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
               <folding>
                 <element signature="e#158#159#0" expanded="true" />
                 <element signature="e#192#193#0" expanded="true" />
@@ -160,23 +164,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/App00.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ApolloWalletLoginLogout.java" />
         <option value="$PROJECT_DIR$/src/main/java/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ApolloWalletTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/LoginTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/ApolloWalletSite.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/DashboardPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginPageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/LogInTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LogInPageTests/CreateStandardWalletTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/ApolloWalletSite.java" />
         <option value="$PROJECT_DIR$/src/test/java/LogInPageTests/CreateVaultWalletTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LogInPageTests/CreateStandardWalletTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LogInPageTests/ImportTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/LogInPageTests/LogInTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LogInPageTests/LogInPageTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LogInPageTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/DashboardPage.java" />
       </list>
     </option>
   </component>
@@ -250,10 +257,13 @@
             <path>
               <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="LogInPageTests" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,7 +272,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557756121424" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557853346375" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -285,53 +295,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CreateStandardWalletTests and 2 more">
-    <configuration name="CreateStandardWalletTests and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LogInPageTests.testBackSpaceBtn">
+    <configuration name="LogInPageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="LogInPageTests.CreateStandardWalletTests" />
-        <pattern testClass="LogInPageTests.CreateVaultWalletTests" />
-        <pattern testClass="LogInPageTests.LogInTests" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Practice" />
-      <option name="PACKAGE_NAME" value="LogInPageTests" />
-      <option name="MAIN_CLASS_NAME" value="LogInPageTests.LoginPageTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LogInPageTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTests.testCreateVaultWalletCustomSecretPhrase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInPageTests.testBackSpaceBtn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice" />
-      <option name="PACKAGE_NAME" value="LogInPageTests" />
-      <option name="MAIN_CLASS_NAME" value="LogInPageTests.LoginPageTests" />
-      <option name="METHOD_NAME" value="testCreateVaultWalletCustomSecretPhrase" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LogInPageTests" />
+      <option name="METHOD_NAME" value="testBackSpaceBtn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTests.testCreateVaultWalletRandomlyGeneratedSecretPhrase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInPageTests.testImportBigSizeSecretFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice" />
-      <option name="PACKAGE_NAME" value="LogInPageTests" />
-      <option name="MAIN_CLASS_NAME" value="LogInPageTests.LoginPageTests" />
-      <option name="METHOD_NAME" value="testCreateVaultWalletRandomlyGeneratedSecretPhrase" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LogInPageTests" />
+      <option name="METHOD_NAME" value="testImportBigSizeSecretFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTests.testLogInByAccountID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInPageTests.testImportSecretFileWrongFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice" />
-      <option name="PACKAGE_NAME" value="LogInPageTests" />
-      <option name="MAIN_CLASS_NAME" value="LogInPageTests.LoginPageTests" />
-      <option name="METHOD_NAME" value="testLogInByAccountID" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LogInPageTests" />
+      <option name="METHOD_NAME" value="testImportSecretFileWrongFormat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogInPageTests.testLogOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LogInPageTests" />
+      <option name="METHOD_NAME" value="testLogOut" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -339,11 +347,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CreateStandardWalletTests and 2 more" />
-        <item itemvalue="JUnit.LoginPageTests" />
-        <item itemvalue="JUnit.LoginPageTests.testLogInByAccountID" />
-        <item itemvalue="JUnit.LoginPageTests.testCreateVaultWalletCustomSecretPhrase" />
-        <item itemvalue="JUnit.LoginPageTests.testCreateVaultWalletRandomlyGeneratedSecretPhrase" />
+        <item itemvalue="JUnit.LogInPageTests.testBackSpaceBtn" />
+        <item itemvalue="JUnit.LogInPageTests" />
+        <item itemvalue="JUnit.LogInPageTests.testLogOut" />
+        <item itemvalue="JUnit.LogInPageTests.testImportBigSizeSecretFile" />
+        <item itemvalue="JUnit.LogInPageTests.testImportSecretFileWrongFormat" />
       </list>
     </recent_temporary>
   </component>
@@ -361,41 +369,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTests_testLogInByAccountID - 2019.05.13 at 15h 39m 31s.xml">
-      <configuration name="LoginTests.testLogInByAccountID" configurationId="JUnit" />
+    <history-entry file="LogInPageTests_testImportInvalidSecretFile - 2019.05.14 at 18h 23m 44s.xml">
+      <configuration name="LogInPageTests.testImportInvalidSecretFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_testLogInByAccountID - 2019.05.13 at 15h 40m 52s.xml">
-      <configuration name="LoginTests.testLogInByAccountID" configurationId="JUnit" />
+    <history-entry file="LogInPageTests_testImportInvalidSecretFile - 2019.05.14 at 18h 25m 03s.xml">
+      <configuration name="LogInPageTests.testImportInvalidSecretFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_testLogInByAccountID - 2019.05.13 at 15h 42m 02s.xml">
-      <configuration name="LoginTests.testLogInByAccountID" configurationId="JUnit" />
+    <history-entry file="LogInPageTests_testImportSecretFileWrongFormat - 2019.05.14 at 18h 31m 15s.xml">
+      <configuration name="LogInPageTests.testImportSecretFileWrongFormat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_testCreateVaultWalletCustomSecretPhrase - 2019.05.13 at 15h 55m 51s.xml">
-      <configuration name="LoginTests.testCreateVaultWalletCustomSecretPhrase" configurationId="JUnit" />
+    <history-entry file="LogInPageTests_testImportBigSizeSecretFile - 2019.05.14 at 18h 36m 04s.xml">
+      <configuration name="LogInPageTests.testImportBigSizeSecretFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_testCreateVaultWalletCustomSecretPhrase - 2019.05.13 at 15h 56m 55s.xml">
-      <configuration name="LoginTests.testCreateVaultWalletCustomSecretPhrase" configurationId="JUnit" />
+    <history-entry file="LogInPageTests_testImportBigSizeSecretFile - 2019.05.14 at 18h 40m 51s.xml">
+      <configuration name="LogInPageTests.testImportBigSizeSecretFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_testCreateVaultWalletCustomSecretPhrase - 2019.05.13 at 16h 01m 24s.xml">
-      <configuration name="LoginTests.testCreateVaultWalletCustomSecretPhrase" configurationId="JUnit" />
+    <history-entry file="LogInPageTests - 2019.05.14 at 18h 46m 17s.xml">
+      <configuration name="LogInPageTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_testCreateVaultWalletCustomSecretPhrase - 2019.05.13 at 16h 03m 25s.xml">
-      <configuration name="LoginTests.testCreateVaultWalletCustomSecretPhrase" configurationId="JUnit" />
+    <history-entry file="LogInPageTests_testLogOut - 2019.05.14 at 18h 46m 38s.xml">
+      <configuration name="LogInPageTests.testLogOut" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_testLogInByAccountID - 2019.05.13 at 16h 36m 41s.xml">
-      <configuration name="LoginTests.testLogInByAccountID" configurationId="JUnit" />
+    <history-entry file="LogInPageTests - 2019.05.14 at 18h 47m 18s.xml">
+      <configuration name="LogInPageTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests - 2019.05.13 at 16h 39m 57s.xml">
-      <configuration name="LoginTests" configurationId="JUnit" />
+    <history-entry file="LogInPageTests - 2019.05.14 at 19h 03m 06s.xml">
+      <configuration name="LogInPageTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CreateStandardWalletTests_and_2_more - 2019.05.13 at 17h 04m 01s.xml">
-      <configuration name="CreateStandardWalletTests and 2 more" configurationId="JUnit" />
+    <history-entry file="LogInPageTests_testBackSpaceBtn - 2019.05.14 at 19h 46m 37s.xml">
+      <configuration name="LogInPageTests.testBackSpaceBtn" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17590618" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17590618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,12 +412,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30877572" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30877572" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3217768" />
@@ -434,39 +442,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/LogInPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="169" column="67" selection-start-line="169" selection-start-column="16" selection-end-line="169" selection-end-column="67" />
+        <state relative-caret-position="627">
+          <caret line="350" column="5" lean-forward="true" selection-start-line="350" selection-start-column="5" selection-end-line="350" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#testExitModalWindowBtn#0;class#LoginTests#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/DashboardPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="61" column="76" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="76" />
+        <state relative-caret-position="187">
+          <caret line="98" column="61" selection-start-line="98" selection-start-column="53" selection-end-line="98" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/ApolloWalletSite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        <state relative-caret-position="221">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
           <folding>
             <element signature="e#158#159#0" expanded="true" />
             <element signature="e#192#193#0" expanded="true" />
@@ -474,10 +482,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="63" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LogInPageTests/ImportTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#CreateVaultWalletTests#0" />
+            <element signature="method#testImportCorrectDataAlreadyExist#0;class#ImportTests#0" />
+            <element signature="method#tearDown#0;class#CreateVaultWalletTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LogInPageTests/CreateVaultWalletTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="221" column="5" selection-start-line="34" selection-start-column="4" selection-end-line="221" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#LoginPageTests#0" />
+            <element signature="method#testCreateVaultWalletRandomlyGeneratedSecretPhrase#0;class#LoginPageTests#0" />
+            <element signature="method#testCreateVaultWalletRandomlyGeneratedSecretPhrase#1;class#CreateVaultWalletTests#0" />
+            <element signature="method#testCreateVaultWalletCustomSecretPhrase#0;class#LoginPageTests#0" />
+            <element signature="method#testCreateVaultWalletRandomlyGeneratedSecretPhrase#1;class#CreateVaultWalletTests#0" />
+            <element signature="method#tearDown#0;class#LoginPageTests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LogInPageTests/CreateStandardWalletTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="118" column="40" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+        <state relative-caret-position="442">
+          <caret line="137" column="5" selection-start-line="31" selection-start-column="4" selection-end-line="137" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#Cre#0" />
@@ -489,53 +533,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LogInPageTests/CreateVaultWalletTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/LogInPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setUp#0;class#LoginPageTests#0" />
-            <element signature="method#testCreateVaultWalletRandomlyGeneratedSecretPhrase#0;class#LoginPageTests#0" />
-            <element signature="method#testCreateVaultWalletCustomSecretPhrase#0;class#LoginPageTests#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LogInPageTests/LogInTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        <state relative-caret-position="366">
+          <caret line="144" column="38" lean-forward="true" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#LoginPageTests#0" />
             <element signature="method#testLogInBySecretPhrase#0;class#LoginPageTests#0" />
-            <element signature="method#testLogInByEmptySecretPhraseNegative#0;class#LoginPageTests#0" />
+            <element signature="method#testLogInByEmptySecretPhraseNegative#0;class#LogInTests#0" />
             <element signature="method#testLogInByAccountID#0;class#LoginPageTests#0" />
             <element signature="method#testLogInByAccountIDNegative#0;class#LoginPageTests#0" />
             <element signature="method#testLogInByEmptyAccountIDNegative#0;class#LoginPageTests#0" />
             <element signature="method#testLogOut#0;class#LoginPageTests#0" />
             <element signature="method#testExitModalWindowBtn#0;class#LogInTests#0" />
+            <element signature="method#testCreateVaultWalletRandomlyGeneratedSecretPhrase#0;class#LogInTests#0" />
+            <element signature="method#testCreateVaultWalletVerifyStoreDataNegative#0;class#LogInTests#0" />
+            <element signature="method#testCreateVaultWalletCustomSecretPhrase#0;class#LogInTests#0" />
+            <element signature="method#testCreateVaultWalletInvalidSecretPhraseNegative#0;class#LogInTests#0" />
+            <element signature="method#testCreateStandardWallet#0;class#LogInTests#0" />
+            <element signature="method#testCreateStandardWalletInvalidSecretPhrase#0;class#LogInTests#0" />
+            <element signature="method#testCreateStandardWalletNegative#0;class#LogInTests#0" />
+            <element signature="method#testImportFile#0;class#LogInPageTests#0" />
+            <element signature="method#testImportFile#1;class#LogInPageTests#0" />
+            <element signature="method#testImportInvalidSecretPhrase#1;class#LogInPageTests#0" />
+            <element signature="method#testImportInvalidSecretPhrase#1;class#LogInPageTests#0" />
+            <element signature="method#testImportInvalidSecretFile#1;class#LogInPageTests#0" />
+            <element signature="method#testImportSecretFileWrongFormat#1;class#LogInPageTests#0" />
             <element signature="method#tearDown#0;class#LoginPageTests#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LogInPageTests/LoginPageTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="350" column="5" lean-forward="true" selection-start-line="350" selection-start-column="5" selection-end-line="350" selection-end-column="5" />
+        <state relative-caret-position="1165">
+          <caret line="111" column="94" selection-start-line="111" selection-start-column="81" selection-end-line="111" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#testExitModalWindowBtn#0;class#LoginTests#0" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#2322#2323#0" expanded="true" />
+            <element signature="e#2373#2374#0" expanded="true" />
+            <element signature="e#2406#2407#0" expanded="true" />
+            <element signature="e#2462#2463#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+            <element signature="e#4632#4839#0" expanded="true" />
+            <element signature="e#4838#4839#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/DashboardPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="80">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -579,6 +637,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
